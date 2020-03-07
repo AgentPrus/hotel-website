@@ -7,7 +7,7 @@
 
 /* Main Styling */
 html, body {
-    font-family: "Times New Roman";
+    font-family: "Times New Roman", sans-serif;
     line-height: 1.7em;
 }
 
@@ -46,13 +46,13 @@ p {
 }
 
 .bg-light {
-    background: #f7c08a;
+    background: #fff;
     color: #333;
 }
 
-.bg-dark {
-    background: #333;
-    color: #fff;
+.bg-primary {
+    background: #f7c08a;
+    color: #333;
 }
 
 .btn {
@@ -73,6 +73,10 @@ p {
 .btn:hover {
     background: #f7c08a;
     color: #333;
+}
+
+.clr {
+    clear: both;
 }
 
 /* Navbar */
@@ -158,4 +162,25 @@ p {
 
 #home-info .info-content p {
     padding-bottom: 30px;
+}
+
+/* Features */
+.box {
+    float: left;
+    width: 33.3%;
+    text-align: center;
+    padding: 50px;
+}
+
+.box i {
+    margin-bottom: 10px;
+}
+
+/* Footer */
+
+#main-footer {
+    text-align: center;
+    background: #444;
+    color: #fff;
+    padding: 20px;
 }
